@@ -20,7 +20,7 @@ SMA - FUZZY
 Séries temporais multivariadas, tais como aquelas obtidas em RSSF densas, frequentemente exibem correlações espacial e temporal nos dados. Esta propriedade pode ser utilizada para tratar e minorar os efeitos de dois eventos frequentes em processos de aquisição de dados: a presença de outliers e a ausência de dados. Este trabalho apresenta e avalia uma estratégia conjunta baseada em regressão não paramétrica para tratar outliers e dados faltantes. Outliers são detectados por técnicas estatísticas e tratados como dados faltantes. A Inferência Fuzzy (FI) é usada para estimar as temperaturas dos sensores e a decomposição dos dados das séries temporais é realizada pelo Método de Média Móvel Simples (SMA).
 
 ## Como rodar
- - Em cada sensor acesso o arquivo outliers_SMA.ipynb e execute as celular uma a uma; depois de gerar o arquivo imputation.csv acesse o arquivo s21_s19_s20-FI.ipynb e gereo arquivo sensorfinal.csv
+ - Em cada sensor acesso o arquivo outliers_SMA.ipynb e execute as celular uma a uma; depois de gerar o arquivo imputation.csv acesse o arquivo sSensorAtual_sVizinho1_sVizinho2-FI.ipynb e gere o arquivo sensorfinal.csv
  - Com o arquivo sensorfinal.csv gere as estatísticas básicas dos sensores no arquivo  outliers_SMA.ipynb
  
  ## Referências
